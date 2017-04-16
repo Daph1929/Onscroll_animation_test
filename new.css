@@ -1,0 +1,212 @@
+.parallax {
+    
+    background-image: url("images/im1.jpg");
+    min-height: 668px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    background-image: url("images/im19.jpg");
+    min-height: 300px; width: 500px; 
+    background-attachment: fixed;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("images/im13.jpg");
+    min-height: 668px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    
+    background-image: url("images/im8.jpg");
+    min-height: 668px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4{
+    background-image: url("images/im10.jpg");
+    min-height: 300px; width: 1275px; 
+    background-attachment: fixed;
+    float: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5{
+    background-image: url("images/im11.jpg");
+    min-height: 300px; width: 1200px; 
+    background-attachment: fixed;
+    float:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.txt{
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;	
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 450px; top: 250px;
+  padding: 1px 15px  1px 15px;
+  background-color:   #17202a;
+  z-index: 1;
+}
+
+.txt1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;  
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 550px; top: 1250px;
+  padding: 1px 15px  1px 15px;
+  background-color:   #17202a;
+}
+
+.txt2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;  
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 550px; top: 700px;
+  padding: 1px 1px  1px 1px;
+  border: 18px solid transparent;
+  border-image: url("images/back9.jpg") 30 stretch;
+  border-radius: 25%
+  background-color: #781e8a;
+background-image: url("https://www.transparenttextures.com/patterns/pineapple-cut.png");
+  transition: font-size 1s , background-color 1s ;
+}
+
+.txt2:hover{font-size: 36px; 
+            background-color: #b0488c;
+}
+
+.im1{position: absolute;
+  right: 450px; top: 250px;}
+
+.block1 {
+  background-color: #224661;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+
+  filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
+  /* CSS3 */
+  position: absolute;
+  top: 1150px;
+  height: 50%;
+  width: 100%;
+
+}
+
+
+.block {
+ background-color: #d12e64;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+
+  filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
+  /* CSS3 */
+  position: absolute;
+  top: 150px;
+  left: 0;
+  height: 50%;
+  width: 100%;
+
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#container2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.icon{
+  font-size:45px;
+  color: #4d5656;
+  z-index:1;
+  position: absolute;
+  top:800px;left: 160px;
+  transition: font-size 0.5s,left 0.5s, color 0.5s;
+
+}
+
+.icon:hover{font-size:70px; left:170px; color: #922b21;}
+
+.icon1{
+  font-size:48px;
+  color: #bb8fce ;
+  z-index:1;
+  position: absolute;
+  top: 798px; left: 900px;
+  transition: font-size 0.5s,left 0.5s, color  0.5s;
+}
+.icon1:hover{font-size:70px; left:910px; color:#ecf0f1;}
+
+
+.icon2{
+  font-size:48px;
+  color:#f39c12;
+  z-index:1;
+  position: absolute;
+  top: 800px; left: 1100px;
+  transition: font-size 0.5s,left 0.5s, color  0.5s;
+}
+.icon2:hover{font-size:70px; left:1110px; color:  #ecf0f1;}
+
+
+
+ .icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #717d7e; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+
+}
+
+
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 40px; /* Increased font size */
+
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color:#196f3d ; /* Add an active/current color */
+}
+
