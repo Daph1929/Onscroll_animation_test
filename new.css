@@ -178,7 +178,7 @@ background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.
   top: 800px; left: 1100px;
   transition: font-size 0.5s,left 0.5s, color  0.5s;
 }
-.icon2:hover{font-size:70px; left:1110px; color:  #ecf0f1;}
+.icon2:hover{font-size:70px; left:1110px; color:  #ecf0f1; }
 
 
 
