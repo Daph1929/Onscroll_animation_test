@@ -18,5 +18,8 @@ filter: alpha(opacity=30);
   /* Mozilla */
   opacity: 0.3;
   /* CSS3 */
-  position: absolute;}
+  position: absolute;
+top: 20px;
+height: 50%;
+  width: 100%;}
 
