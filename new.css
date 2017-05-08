@@ -9,7 +9,7 @@
 }
 .parallax1 {
     background-image: url("images/im19.jpg");
-    min-height: 300px; width: 500px; 
+    min-height: 600px; width: 500px; 
     background-attachment: fixed;
     float: left;
     background-repeat: no-repeat;
