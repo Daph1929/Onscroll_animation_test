@@ -11,5 +11,12 @@ h1,h2{font-family: 'Handlee', cursive;
  text-align:center;}
 
  .fi1{background-color: #4c9e00;
-background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");}
+background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
+  /* CSS3 */
+  position: absolute;}
 
