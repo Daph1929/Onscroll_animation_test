@@ -8,8 +8,8 @@ body{
 
 }
 h1,h2{font-family: 'Handlee', cursive;
- text-align:center;}
-
+ text-align:center;
+color:#CD6155   }
  .fi1{background-color: #4c9e00;
 background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 filter: alpha(opacity=30);
