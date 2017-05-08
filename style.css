@@ -1,4 +1,8 @@
 body{
 	background-image: url("images/im6.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
