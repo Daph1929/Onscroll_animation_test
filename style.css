@@ -11,7 +11,8 @@ h1,h2{font-family: 'Handlee', cursive;
  text-align:center;
 color:#9B59B6   }
  .fi1{background-color: #4c9e00;
-background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+background-color: #c94220;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
 filter: alpha(opacity=30);
   /* IE */
   -moz-opacity: 0.3;
