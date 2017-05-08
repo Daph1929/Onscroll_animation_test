@@ -4,5 +4,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
 
 }
