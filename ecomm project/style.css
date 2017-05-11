@@ -1,0 +1,38 @@
+body{
+	background-image: url("images/im6.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h1{font-family: 'Handlee', cursive;
+ text-align:center;
+color:#9B59B6   }
+ .fi1{background-color: #4c9e00;
+background-color: #c94220;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
+  /* CSS3 */
+  position: absolute;
+top: 50px;
+height: 15%;
+  width: 100%;}
+ .fi2{background-color: #4c9e00;
+background-color: #c94220;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+filter: alpha(opacity=30);
+  /* IE */
+  -moz-opacity: 0.3;
+  /* Mozilla */
+  opacity: 0.3;
+  /* CSS3 */
+  position: absolute;
+top: 250px;
+height: 15%;
+  width: 100%;}
